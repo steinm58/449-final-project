@@ -1,0 +1,26 @@
+form {
+    text-align: center;
+}
+
+::placeholder {
+    font-family: "Mitr", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #b7948e;
+}
+
+button {
+    background: #7a4d5c;
+    color:#b7948e;
+    border-radius: 10px;
+    border-color:#7a4d5c;
+    font-family: "Mitr", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.forms {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}

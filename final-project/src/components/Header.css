@@ -1,0 +1,27 @@
+.modak-regular {
+    font-family: "Modak", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.pink {
+    color: #9c6a6f;
+}
+
+.peach {
+    color: #b7948e;
+}
+
+.magenta {
+    color: #7a4d5c;
+}
+
+.title {
+    text-align: center;
+    font-size: 64px;
+    padding-top: 20px;
+}
+
+em {
+    font-style: normal;
+}
