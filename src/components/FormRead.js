@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import './Form.css';
 
 import { createClient } from '@supabase/supabase-js'
@@ -23,7 +23,7 @@ function FormRead() {
     };
   
     const submitFormDelete = async (event) => {
-        const { data } = await supabase2.from('books read').delete().eq('title', deleteTitle).eq('author', deleteAuthor);
+        await supabase2.from('books read').delete().eq('title', deleteTitle).eq('author', deleteAuthor);
     }
 
     return (
